@@ -1,3 +1,4 @@
+
 * [angular 11.2.14](https://v11.angular.io/docs)
 * [angular workspace](https://angular.io/guide/file-structure)
 * [bootstab 4.6.1](https://getbootstrap.com/docs/4.6/getting-started/introduction/)
@@ -110,3 +111,66 @@ ng build rd-vatsbtintra-lib
 ng build rd-vatsbtintra-dashboard-web --base-href=/rd-vatsbtintra-dashboard-web/
 
 ```
+## Report ในส่วนที่เพิ่มเข้ามา
+
+1. สร้าง component report_business_gold_receive
+```
+	ng generate component report_business_gold_receive
+```
+   โดยสร้าง component เพิ่มเติ่ม อีก 2 อัน 
+```
+	ng generate component report_business_gold_receive_sub1
+	ng generate component report_business_gold_receive_sub2
+```
+2. สร้าง component report_business_notification_area
+```
+	ng generate component report_business_notification_area
+```
+   โดยสร้าง component เพิ่มเติ่ม อีก 2 อัน 
+```
+	ng generate component report_business_notification_area_sub1
+	ng generate component report_business_notification_area_sub2
+```
+3.สร้าง component report_business_user_remove
+```
+	ng generate component report_business_user_remove
+```
+   โดยสร้าง component เพิ่มเติ่ม อีก 2 อัน 
+```
+	ng generate component report_business_user_remove_sub1
+	ng generate component report_business_user_remove_sub2
+```
+4. สร้าง component report_business_not_transfer
+```
+	ng generate component report_business_not_transfer
+```
+   โดยสร้าง component เพิ่มเติ่ม อีก 3 อัน 
+```
+	ng generate component report_business_not_transfer_sub1
+	ng generate component report_business_not_transfer_sub2
+	ng generate component search_report_business_not_transfer
+```
+5.สร้าง component report_business_not_approve
+```
+	ng generate component report_business_not_approve
+```
+   โดยสร้าง component เพิ่มเติ่ม อีก 3 อัน 
+```
+	ng generate component report_business_not_approve_sub1
+	ng generate component report_business_not_approve_sub2
+	ng generate component search_report_business_not_approve
+```
+
+6.สร้าง component report_business_not_approve
+```
+	ng generate component report_gold_vat_approve
+```
+   โดยสร้าง component เพิ่มเติ่ม อีก 1 อัน 
+```
+	ng generate component search_report_gold_vat_approve
+```
+
+
+## Run Project rd-vatintra-pp013-web
+
+	ng serve rd-vatintra-pp013-web
